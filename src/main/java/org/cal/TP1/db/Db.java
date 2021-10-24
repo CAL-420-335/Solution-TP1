@@ -36,7 +36,6 @@ public class Db implements IDb{
 
             if(employes.size() == 0) {
                 tachesNonAssigne.addAll(taches);
-                taches.clear();
             }
             else {
                 assigneTacheFonction(taches, employes);
